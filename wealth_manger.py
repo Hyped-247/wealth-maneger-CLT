@@ -7,8 +7,12 @@ import math
 
 
 class Calculator:
-    def __init__(self, passive_income_desired_yearly, yearly_savings, starting_year,
-                 price_of_one_apt, price_of_renting_one_apt):
+    def __init__(self, passive_income_desired_yearly,
+                 yearly_savings,
+                 starting_year,
+                 price_of_one_apt,
+                 price_of_renting_one_apt):
+        
         if isinstance(starting_year, int):
             self._passive_income_desired_yearly = passive_income_desired_yearly
             self._yearly_savings = yearly_savings
@@ -22,7 +26,7 @@ class Calculator:
             raise TypeError("Make sure that the year input is an integer")    
             
     """
-        @:arg This method has no arguments
+    @:arg This method has no arguments
     """
     def _calculate(self):
         apt_number_owned = 0
@@ -73,4 +77,12 @@ class Calculator:
         print("")
 
 
+if __name__ == "__main__":
+    from pyfiglet import Figlet
+    
+    f = Figlet(font='slant')
+    print(f.renderText('Real estate investment calculator'))
+
+    
+    
 
