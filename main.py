@@ -3,11 +3,11 @@ from PyInquirer import Validator, ValidationError
 
 
 style = style_from_dict({
-    Token.QuestionMark: '#E91E63 bold',
-    Token.Selected: '#673AB7 bold',
-    Token.Instruction: '',
-    Token.Answer: '#2196f3 bold',
-    Token.Question: '',
+    Token.QuestionMark: '#FF0000 bold',
+    Token.Selected: '#00EFFF bold',
+    Token.Instruction: '#5EFF00 bold',
+    Token.Answer: '#FF0000 bold',
+    Token.Question: '#FFFF00 bold',
 })
 
 
