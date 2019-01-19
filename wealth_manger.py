@@ -4,7 +4,6 @@
 This class is going to calculate how many years will it take to generate passive for a given income from renting apts.
 """
 import math
-from termcolor import colored
 
 
 class Calculator:
