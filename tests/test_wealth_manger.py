@@ -1,5 +1,5 @@
 import unittest
-from wealth_manger import Calculator
+from investment_calculator import Calculator
 
 
 class TestCalculate(unittest.TestCase):

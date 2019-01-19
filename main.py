@@ -59,7 +59,7 @@ questions = [
 
 if __name__ == "__main__":
     from pyfiglet import Figlet
-    from wealth_manger import Calculator
+    from investment_calculator import Calculator
     f = Figlet(font='slant')
     print(f.renderText('Real estate investment calculator'))
     answers = prompt(questions, style=style)
