@@ -4,6 +4,7 @@
 This class is going to calculate how many years will it take to generate passive for a given income from renting apts.
 """
 import math
+from termcolor import colored
 
 
 class Calculator:
@@ -61,13 +62,16 @@ class Calculator:
         return self.get_apartments_needed() * self._price_of_one_apt
     
     def print_results(self):
+        print("")
         print("The passive income desired yearly is ${0}, "
               "the yearly investments is ${1}, "
               "the price of every apt is ${2}, "
               "the price for renting every apt is ${3},"
-              " the net worth is ${4}"
-              .format(self._passive_income_desired_yearly, self._yearly_savings, self._price_of_one_apt,
-                      self._price_of_renting_one_apt, self.get_net_worth()))
+              " the net worth is ${4}".format(self._passive_income_desired_yearly,
+                                              self._yearly_savings,
+                                              self._price_of_one_apt,
+                                              self._price_of_renting_one_apt,
+                                              self.get_net_worth()))
         for k, v in self._answer.items():
             print("Year number: {0}, Apt number owned {1} Passive Income ${2}"
                   .format(k, v[0], round(v[1])))
@@ -77,11 +81,7 @@ class Calculator:
         print("")
 
 
-if __name__ == "__main__":
-    from pyfiglet import Figlet
-    
-    f = Figlet(font='slant')
-    print(f.renderText('Real estate investment calculator'))
+
 
     
     

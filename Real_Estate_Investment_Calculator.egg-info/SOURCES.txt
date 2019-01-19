@@ -1,9 +1,0 @@
-README.md
-setup.py
-/Users/mohammad/PycharmProjects/wealth-maneger-CLT/__init__.py
-/Users/mohammad/PycharmProjects/wealth-maneger-CLT/main.py
-/Users/mohammad/PycharmProjects/wealth-maneger-CLT/wealth_manger.py
-Real_Estate_Investment_Calculator.egg-info/PKG-INFO
-Real_Estate_Investment_Calculator.egg-info/SOURCES.txt
-Real_Estate_Investment_Calculator.egg-info/dependency_links.txt
-Real_Estate_Investment_Calculator.egg-info/top_level.txt
