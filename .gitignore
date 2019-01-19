@@ -5,3 +5,4 @@ __pycache__
 /investment_calculator.egg-info
 /build
 setup.py
+.gitignore
